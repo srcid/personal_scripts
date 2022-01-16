@@ -1,0 +1,8 @@
+#/usr/bin/env bash
+
+__NV_PRIME_RENDER_OFFLOAD=1
+__VK_LAYER_NV_optimus=NVIDIA_only
+__NV_PRIME_RENDER_OFFLOAD_PROVIDER=NVIDIA-G0
+__GLX_VENDOR_LIBRARY_NAME=nvidia
+
+exec "$@"
